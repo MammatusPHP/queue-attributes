@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mammatus\\Cron\\Attributes\\": "src/"
+            "Mammatus\\Queue\\Attributes\\": "src/"
         }
     },
     "config": {
