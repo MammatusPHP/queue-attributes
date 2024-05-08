@@ -1,21 +1,21 @@
-# Attributes for the cron manager
+# Attributes for the queue manager
 
-[![Continuous Integration](https://github.com/MammatusPHP/cron-attributes/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/MammatusPHP/cron-attributes/actions/workflows/ci.yml)
-[![Latest Stable Version](https://poser.pugx.org/mammatus/cron-attributes/v/stable.png)](https://packagist.org/packages/mammatus/cron-attributes)
-[![Total Downloads](https://poser.pugx.org/mammatus/cron-attributes/downloads.png)](https://packagist.org/packages/mammatus/cron-attributes)
-[![License](https://poser.pugx.org/mammatus/cron-attributes/license.png)](https://packagist.org/packages/mammatus/cron-attributes)
+[![Continuous Integration](https://github.com/MammatusPHP/queue-attributes/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/MammatusPHP/queue-attributes/actions/workflows/ci.yml)
+[![Latest Stable Version](https://poser.pugx.org/mammatus/queue-attributes/v/stable.png)](https://packagist.org/packages/mammatus/queue-attributes)
+[![Total Downloads](https://poser.pugx.org/mammatus/queue-attributes/downloads.png)](https://packagist.org/packages/mammatus/queue-attributes)
+[![License](https://poser.pugx.org/mammatus/queue-attributes/license.png)](https://packagist.org/packages/mammatus/queue-attributes)
 
 # Installation
 
 To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `^`.
 
 ```
-composer require mammatus/cron-attributes
+composer require mammatus/queue-attributes
 ```
 
 # Usage
 
-See the [cron](https://github.com/MammatusPHP/cron) package on usage.
+See the [queue](https://github.com/MammatusPHP/queue) package on usage.
 
 # License
 
