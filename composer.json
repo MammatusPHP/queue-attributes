@@ -3,7 +3,8 @@
     "description": "\ud83e\ude86 Queue attributes",
     "license": "MIT",
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "mammatus/kubernetes-contracts": "dev-main"
     },
     "require-dev": {
         "wyrihaximus/test-utilities": "^5.6"
