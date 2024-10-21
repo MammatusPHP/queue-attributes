@@ -10,9 +10,7 @@ use Mammatus\Kubernetes\Contracts\AddOn;
 #[Attribute(Attribute::TARGET_CLASS | Attribute::IS_REPEATABLE)]
 final readonly class Consumer
 {
-    /**
-     * @var array<AddOn>
-     */
+    /** @var array<AddOn> */
     public array $addOns;
 
     public function __construct(
