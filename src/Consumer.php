@@ -15,6 +15,7 @@ final readonly class Consumer
 
     public function __construct(
         public string $queue,
+        public string $dtoClass,
         public int $concurrency,
         AddOn ...$addOns,
     ) {
