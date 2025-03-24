@@ -14,6 +14,7 @@ final readonly class Consumer
     public array $addOns;
 
     public function __construct(
+        public string $friendlyName,
         public string $queue,
         public string $dtoClass,
         public int $concurrency,
