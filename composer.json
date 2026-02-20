@@ -1,38 +1,45 @@
 {
-    "name": "mammatus/queue-attributes",
-    "description": "\ud83e\ude86 Queue attributes",
-    "license": "MIT",
-    "require": {
-        "php": "^8.2",
-        "mammatus/kubernetes-contracts": "^1"
-    },
-    "require-dev": {
-        "wyrihaximus/test-utilities": "^5.6"
-    },
-    "autoload": {
-        "psr-4": {
-            "Mammatus\\Queue\\Attributes\\": "src/"
-        }
-    },
-    "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "ergebnis/composer-normalize": true,
-            "infection/extension-installer": true
-        },
-        "platform": {
-            "php": "8.2.13"
-        },
-        "sort-packages": true
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "composer normalize",
-            "composer update --lock --no-scripts"
-        ],
-        "post-update-cmd": [
-            "composer normalize",
-            "composer update --lock --no-scripts"
-        ]
+  "name": "mammatus/queue-attributes",
+  "description": "\ud83e\ude86 Queue attributes",
+  "license": "MIT",
+  "require": {
+    "php": "^8.4",
+    "mammatus/kubernetes-contracts": "^1.0.0"
+  },
+  "require-dev": {
+    "wyrihaximus/makefiles": "^0.7.16",
+    "wyrihaximus/test-utilities": "^8.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mammatus\\Queue\\Attributes\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mammatus\\Tests\\Queue\\Attributes\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "ergebnis/composer-normalize": true,
+      "infection/extension-installer": true,
+      "phpstan/extension-installer": true,
+      "wyrihaximus/makefiles": true,
+      "wyrihaximus/test-utilities": true
+    },
+    "platform": {
+      "php": "8.4.13"
+    },
+    "sort-packages": true
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "make on-install-or-update || true"
+    ],
+    "post-update-cmd": [
+      "make on-install-or-update || true"
+    ]
+  }
 }
