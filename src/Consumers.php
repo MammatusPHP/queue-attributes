@@ -11,6 +11,7 @@ use function array_filter;
 use function array_map;
 use function array_values;
 
+/** @api */
 #[Attribute(Attribute::TARGET_CLASS | Attribute::IS_REPEATABLE)]
 final readonly class Consumers
 {

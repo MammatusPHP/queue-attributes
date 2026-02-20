@@ -7,6 +7,7 @@ namespace Mammatus\Queue\Attributes;
 use Attribute;
 use Mammatus\Kubernetes\Contracts\AddOn;
 
+/** @api */
 #[Attribute(Attribute::TARGET_CLASS | Attribute::IS_REPEATABLE)]
 final readonly class Consumer
 {
