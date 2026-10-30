@@ -1,6 +1,6 @@
 # Attributes for the queue manager
 
-[![Continuous Integration](https://github.com/MammatusPHP/queue-attributes/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/MammatusPHP/queue-attributes/actions/workflows/ci.yml)
+[![Continuous Integration](https://github.com/MammatusPHP/queue-attributes/actions/workflows/ci.yaml/badge.svg?event=push)](https://github.com/MammatusPHP/queue-attributes/actions/workflows/ci.yaml)
 [![Latest Stable Version](https://poser.pugx.org/mammatus/queue-attributes/v/stable.png)](https://packagist.org/packages/mammatus/queue-attributes)
 [![Total Downloads](https://poser.pugx.org/mammatus/queue-attributes/downloads.png)](https://packagist.org/packages/mammatus/queue-attributes)
 [![License](https://poser.pugx.org/mammatus/queue-attributes/license.png)](https://packagist.org/packages/mammatus/queue-attributes)
